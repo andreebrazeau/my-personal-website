@@ -1,0 +1,206 @@
+
+body { 
+	font-family: Arial, Helvetica, sans-serif; 
+	background: #d8d8d8;
+}  
+
+.container {  
+    width: 850px;  
+    margin: 0 auto;  
+}
+body, div, h1, h2, h3, p, ul, img{margin:0px; padding:0px;}
+
+#main {
+	background:url(images/Header_slice.jpg) repeat-x;
+}
+#main .container {
+	background: url(images/Header.jpg) no-repeat;
+}
+#logo {
+	background: url(images/Name.png) no-repeat;
+	height: 66px;
+	width: 278px;
+	float: left;
+	margin-top: 40px;
+	margin-right: 400px;
+}
+#logo h1{
+	text-indent: -9999px; 
+}
+#header{
+	padding-top:40px;
+	padding-bottom:10px;
+}
+#rubik {
+	float:left;
+}
+#navi {
+	list-style-type: none;
+  	padding-top: 15px;
+  	margin:0;
+}
+
+#navi a
+{
+	width:150px;
+	float: left;
+	text-decoration: none;
+	color:#d8d8d8;
+	font-weight:bold;
+	font-size: 24px;
+	text-shadow: 2px 2px 2px #212121;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	margin-right:30px ;	
+}
+#navi a.blue {
+	background: url(images/Button_blue.png) no-repeat;
+	padding-left:40px;
+}
+#navi a.yellow {
+	background: url(images/Button_yellow.png) no-repeat;
+	padding-left:30px;
+}
+#navi a.red {
+	background: url(images/Button_red.png) no-repeat;
+	padding-left:30px;
+	margin-left:20px;
+}
+
+#navi_guide {
+	list-style-type: none;
+  	margin:0;
+}
+#navi_guide li {
+	width:150px;
+	float: left;
+	text-decoration: none;
+	background-color:#d8d8d8;
+	font-weight:bold;
+	margin-top: 3px;
+	margin-right:75px ;
+	background: url(images/selected_guide.png) no-repeat;
+	text-indent: -9999px; 
+}
+
+#content{
+	float:left;
+	width:600px;
+}
+#content h2, p, th {
+	color:#414141;
+}
+
+#content h2 {
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+#about_me th
+{
+	text-transform: uppercase;
+	font-size:18px;
+	width:50%;
+}
+#about_me ul{
+	padding-left: 10px;
+}
+#about_me li {
+	padding-right : 20px;
+}
+
+#contact th {
+	text-align: left;
+}
+#sidebar
+{
+	padding-top:25px;
+	width: 250px;
+	float:left;
+}
+	
+#sidebar h2 {
+	font-size: 30px;
+	text-align:center;
+	font-weight:bold;
+	text-shadow: 2px 2px 2px #212121;
+	color: #d8d8d8;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+#sidebar p {
+	color:#d8d8d8;
+	padding-top: 20px;
+}
+#sidebar a {
+	padding-top : 20px;
+	text-decoration: none;
+	color: #d8d8d8;
+}
+#Links a {
+    padding-left:25px;
+}
+#sidebar img {
+	padding-top : 20px;
+}
+#twitter_update_list {
+	margin : 10px;
+	padding-top : 20px;
+}
+#Links {
+	background : url(images/Links_slice.jpg) repeat-x;
+	display: block;
+	min-height:200 px;
+	width: 100%;
+	border: 1px solid #606060;
+	box-shadow:3px 3px 3px #3e3e3e;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+#Last_Tweet {
+	background : url(images/Last_tweet_slice.jpg) repeat-x;
+	display: block;
+	min-height:200 px;
+	width: 100%;
+	border: 1px solid #606060;
+	box-shadow:3px 3px 3px #3e3e3e;
+	padding-bottom:20px;
+	margin-bottom:20px;
+
+}
+#Projects {
+	background : url(images/Projects_slice.jpg) repeat-x;
+	display: block;
+	min-height:200 px;
+	width: 100%;
+	border: 1px solid #606060;
+	box-shadow:3px 3px 3px #3e3e3e;
+	padding-bottom:20px;
+	margin-bottom:20px;
+
+}
+#Projects p {
+	margin : 10px;
+}
+
+#projects_list_div {
+    margin : 10px;
+
+	padding-top : 20px;
+
+}
+
+#footer
+{
+	background: url(images/footer.jpg) repeat-x ;
+	clear:both;
+	padding-top:20px;
+	padding-bottom:60px;
+	margin-top:20px;
+}
+#footer p
+{
+	font-size:12px;
+	padding:15px;
+	color:#d8d8d8;
+}*/
